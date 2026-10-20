@@ -1,0 +1,11 @@
+﻿@model IEnumerable<string>
+
+<div style="background-color: #f8f9fa; padding: 15px; border: 1px solid #ddd; border-radius: 5px; margin-top: 15px;">
+    <h4>Danh sách môn học (Từ View Component):</h4>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>
